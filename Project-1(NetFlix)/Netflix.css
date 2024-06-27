@@ -1,0 +1,390 @@
+@import url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2');
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Netflix Sans';
+    font-size: 21.33333px;
+    overflow:  hidden auto;
+}
+body{
+    background-color: black;
+    
+}
+#initial{
+    background-image: url("netflixlogo_files/IN-en-20240617-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    height: 84vh;
+    width:100vw;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    overflow: hidden auto;
+}
+#initial .black{
+    position: absolute;
+    top:0;
+    background-position: center center;
+    height: 84vh;
+    width:100vw;
+    opacity:0.69;
+    background-color: black;
+}
+nav{
+    height: 10vh;
+    width:80vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    position: absolute;
+}
+nav span{
+    margin:11px 50px 0px 25px;
+}
+#logo{
+    width:150px;
+    position: relative;
+    z-index: 10;
+}
+.buttons button{
+    position: relative;
+    z-index: 10;
+    height: auto;
+    width:auto;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin:0px 0px 10px 10px;
+}
+#zeta{
+    margin:0px 7px -1px 0px;
+}
+#pheta{
+    margin:0px 0px -3px 3px;
+}
+#sign{
+    background-color: #E50914;
+    border:1px solid #E50914;
+    color: rgb(255, 255, 255);
+    font-size: 0.65rem;
+    font-weight: 500;
+}
+#lang{
+    background-color: transparent;
+    border: 1.3px solid grey;
+    color: rgb(255, 255, 255);
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+.dark{
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    opacity: 0;
+    top:0;
+    background-color: black;
+}
+.content{
+    top:1%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    position: relative;
+    height: 80%;
+    padding: 30px;
+    margin: 0px 0px 0px 0px;
+    overflow: scroll;
+}
+.content h1{
+    font-size: 2.25rem;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+.content h3{
+    font-size: 1.125rem;;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    bottom:22px;
+}
+.content h4{
+    font-size:0.95rem;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+.bar{
+    height: 1vh;
+    width:100vw;
+    background-color: rgb(35, 35, 35);
+}
+form{
+    display: flex;
+}
+#e-mail{
+    height: 50px;
+    width: 370px;
+    position: relative;
+    right: 108px;
+    margin: 4px 0px 0px 276px;
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    background-color: rgba(22, 22, 22, 0.7);
+    color: rgb(255, 255, 255);
+    font-size: 0.75rem;
+    padding: 0px 0px 0px 16px;
+}
+#get-start{
+    height: 60px;
+    width: 235px;
+    position: relative;
+    margin: 4px 62px 0px 0px;
+    right: 98px;
+    top: -3px;
+    border-radius: 4px;
+    border: 1px solid #E50914;
+    background-color: #E50914;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+#side{
+    position: relative;
+    left: 8px;
+    top: 3px;
+}
+.win-size{
+    display: flex;
+    height: 67vh;
+    width: 100vw;
+    margin: auto;
+} 
+.alpha{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    position: relative;
+    left:9.5%;
+}
+.info{
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin: 0px 0px 13px 0px;
+}
+.beta{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.second{
+    position: relative;
+    right: 30%;
+    bottom:10%;
+}
+.system{
+    position: relative;
+    height: 100%;
+    width: 42%;
+    left:10%;
+}
+.device{
+    width:90%;
+    position: absolute;
+    margin: auto;
+    top: 15%;
+    z-index:10;
+}
+.viddev{
+    position: absolute;
+    left: 12%;
+    top: 29.76%;
+    width: 65.5%;
+}
+.apple{
+    position: absolute;
+    left: 15.84%;
+    width: 57.5%;
+    top: 20.76%;
+}
+.faq{
+    width: 100vw;
+    height: 103vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0px 0px 0px;
+}
+.faq h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin: 0px 0px 25px 0px;position: relative;
+    bottom: 11px;
+}
+.faqbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    position: relative;
+    bottom: 2%;
+}
+.faqbox li:hover{
+    background-color: #414141;
+}
+.faqbox li{
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    list-style: none;
+    border: 1px solid rgb(45, 45, 45);
+    background-color: rgb(45, 45, 45);
+    width: 76.8%;
+    height: 50%;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+#gamma{
+    height: 100%;
+    width:100%
+}
+.repeat{
+    position: relative;
+    bottom: 12%;
+    height: 20%;
+}
+.repeat h4{
+    font-size:0.95rem;
+    font-weight: 400;
+    text-align: center;
+    bottom: 10px;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 15px 0px;
+}
+footer {
+    height: 47.7vh;
+    color: rgba(255, 255, 255, 0.7);
+}
+footer span{
+    font-size: 0.75rem;
+    position: relative;
+    top: 15%;
+    left: 12%;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.75rem;
+}
+.gridbox{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    list-style-type: none;
+    place-content: center;
+    position: relative;
+    left: 12%;
+    top: 20%;
+    margin: 0px 0px 0px 0px;
+}
+.gridbox li{
+    line-height: 150%;
+}
+.gridbox li a{
+    font-size: 0.65rem;
+}
+#ending{
+    position: relative;
+    left: 11.17%;
+    width: 20%;
+    top: 25%;
+}
+.tag{
+    position: relative;
+    left: 12%;
+    width: 30%;
+    top: 30%;
+    font-size: 0.65rem;
+}
+@media screen and (max-width:1300px){
+    *{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:1300px){
+    .win-size{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:1300px) {
+    .alpha{
+        position: relative;
+        margin: 50px 0px;
+        font-size: 18px;
+        height: 50%;
+    }
+}
+@media screen and (max-width:600px){
+   .gridbox{
+    grid-template-columns: repeat(2, 1fr);
+   }
+}
+@media screen and (max-width:1300px){
+    .info{
+        height: 100%;
+    }
+ }
+ @media screen and (max-width:1300px){
+    .beta{
+        height: 100%;
+    }
+ }
+ @media screen and (max-width:1300px){
+    .system{
+        width: 400px;
+    }
+ }
+ @media screen and (max-width:600px){
+    *{
+        overflow: auto;
+        font-size: 10px;
+    }
+ }
+ @media screen and (max-width:600px){
+    .system{
+        width: 300px;
+    }
+ }
+ @media screen and (max-width:600px){
+    #e-mail{
+        width: 200px;
+    }
+    #get-start{
+        width:150px;
+    }
+ }
+ @media screen and (max-width:500px){
+    #e-mail{
+        width: 100px;
+    }
+    #get-start{
+        width:50px;
+    }
+ }
+ @media screen and (max-width:500px){
+    .buttons button{
+        width:90px;
+    }
+ }
+#github{
+    text-decoration: none;
+    font-size: 0.7rem;
+}
